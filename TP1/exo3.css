@@ -1,0 +1,20 @@
+.container{
+    display: flexbox;
+    overflow-y: scroll;
+    max-height: 100px;
+}
+*{
+    background-color: aliceblue;
+}
+.item{
+    background-color: white;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.item:hover{
+    background-color: black;
+    color: white;
+}
+table{
+    width: 500px;
+}

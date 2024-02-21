@@ -1,0 +1,47 @@
+body{
+    background-color:#d1c4e9;
+    margin: 0px;
+}
+table{
+    
+    background-color: #ede7f6 ;
+}
+nav{
+    display: block;
+
+    display: flex;
+    margin-right: 0px;
+    background-color: #673ab7;
+    margin-top: 0px;
+
+}
+nav ul{
+    list-style: none;
+    cursor: pointer;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+
+nav a:hover{
+    color: white;
+    background-color: #986ce4;
+}
+.tag{
+    background-color: #986ce4;
+}
+table li{
+    padding-right: 15px;
+}
+
+@-webkit-keyframes slide_animation{
+    0% {left: 0px;}
+    20% {left: 0px;}
+    30% {left: 1200px;}
+
+}
